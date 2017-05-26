@@ -1,0 +1,48 @@
+html, body {
+    font-size: 16px;
+}
+.main-navigation {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 1.1em;
+    padding-right: 1em;
+    position: fixed;
+    float:left;
+}
+.main-navigation-item {
+    display: block;
+    color: #f95c79;
+    float:left;
+    padding-right: 2em;
+    -webkit-transition: .3s;
+}
+.main-navigation-item:hover {
+    color:#53db87;
+}
+h1.jumbotron-title {
+    color: white;
+}
+.jumbotron-subtitle {
+    color: white;
+}
+.jumbotron {
+    background-image: url("../img/sherpa_temp2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*-webkit-box-shadow: 0px -8px 29px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -8px 29px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px -8px 29px 6px rgba(0,0,0,0.75);
+    */
+}
+.open-quote {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+.blockquote {
+    padding-bottom: 1.5em;
+}
+img {
+    width: 100%;
+    height: auto;
+}
