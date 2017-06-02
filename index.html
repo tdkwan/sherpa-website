@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Nunito:400,700" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,19 +22,34 @@
   </head>
   <body>
 
-      <ul class="main-navigation">
-          <li class="main-navigation-item">
-              Meet Us
-          </li>
-          <li class="main-navigation-item">
-              About
-          </li>
-      </ul>
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="#">SHERPA</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Overview</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
 
-      <div class="jumbotron text-center">
+          </div>
+      </nav>
+
+      <div class="jumbotron text-center container-fluid">
+         <div class="container">
           <h1 class="animated fadeIn jumbotron-title">SHERPA</h1>
           <p class="animated fadeIn jumbotron-subtitle"> Opening your world, one tour at a time.</p>
       </div>
+      </div>
+      <!-- Quote block !-->
       <div class="container-fluid">
           <div class="animated fadeInUp row open-quote">
                   <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
@@ -48,40 +63,66 @@
                       </p>
                   </div>
            </div>
+       </div>
 
-           <div class="row animated fadeInUp">
-              <div class="col-xs-12 col-sm-6 col-md-6">
-                  <img class="img-responsive" src="img/wheelchair1.jpg">
-              </div>
-              <div class="col-xs-12 cols-sm-6 col-md-6">
-                  <h3 class="second-row-title">
-                      Why might this be?
-                  </h3>
-                      <ul>
-                          <li>
-                              Airlines commonly damage expensive wheelchairs, making travel a struggle.
-                          </li>
-                          <li>
+       <!-- Application Introduction !-->
+       <div class="container-fluid">
+           <div class="row color-strip">
+               <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 color-strip-screens">
+                   <img src="img/screen renders.png">
+               </div>
+               <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 color-strip-descriptions">
+                   <p class="question-paragraph">What is Sherpa?</p>
+                   <p class="main-screen-description">Sherpa is an accessibility focused touring application that encourages users to explore their local area, while also meeting others similar to themselves.</p>
+               </div>
+           </div>
+       </div>
 
-                          </li>
-                      </ul>
-                  <h3 class="second-row-title">
-                      What we found:
-                  </h3>
-                  <p>
-                      Wheelchair users are often convinced by social constructions, and lack of inspiration that travel is only for the able-bodied.
-                  </p>
+       <div class="category-name">
+           <p class="centered-bold">Key Features</h3>
+       </div>
 
-              </div>
-            </div>
-            <div class="animated fadeInUp row open-quote">
-                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <h3 class="blockquote text-center">
-                      With SHERPA we aim to bring wheelchair users one step closer to travel, by first allowing them to explore their local communities.
-                    </h3>
-                </div>
-            </div>
-        </div>
+       <div class="container-fluid screens">
+           <div class="row">
+               <div class="screen-container col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                   <img src="img/soloscreen.png">
+                   <h4 class="screen-title">Solo Tour</h4>
+                   <p class="screen-description">
+                       Explore your local area alone with our solo accessibility tour feature.
+                   </p>
+               </div>
+               <div class="screen-container col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                   <img src="img/groupscreen.png">
+                   <h4 class="screen-title">Group Tour</h4>
+                   <p class="screen-description">
+                       Join a tour group, or make a tour group to go together on a group tour.
+                   </p>
+               </div>
+               <div class="screen-container col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                   <img src="img/profilescreen.png">
+                   <h4 class="screen-title">Gamified Profile</h4>
+                   <p class="screen-description">
+                       With every tour gain miles to level up!
+                   </p>
+               </div>
+           </div>
+       </div>
+
+       <div class="category-name">
+           <p class="centered-bold">Digital Mockup</h3>
+       </div>
+       <div class="container-fluid video-container">
+           <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/Xa6zC0HUinY" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <footer>
+           <div class="container-fluid text-center">
+               <div class="logo-container">
+                   <img src="img/sherpa logo.png">
+               </div>
+           </div>
+       </footer>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
