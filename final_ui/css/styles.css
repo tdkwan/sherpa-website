@@ -117,6 +117,15 @@ h1.jumbotron-title {
     font-weight: bold;
     padding-bottom: 1em;
 }
+.question-paragraph-title {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
 .main-screen-description {
     margin: 0 auto;
     text-align: left;
@@ -130,6 +139,18 @@ img {
     padding-bottom: 3em;
     width: 100%;
     text-align:center;
+}
+.category-name-main {
+    padding-top:1em;
+    width: 100%;
+    text-align:center;
+}
+.category-name-main p{
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    -webkit-transition: .2s;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 .category-name p {
     max-width: 200px;
