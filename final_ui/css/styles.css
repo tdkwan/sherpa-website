@@ -21,6 +21,9 @@ p {font-family: 'Nunito', sans-serif;}
     -webkit-transition: background-color .2s;
     border:none;
 }
+.nav li:hover {
+    color: white;
+}
 .navbar-brand {
     color:#28c98e !important;
 }
